@@ -16,7 +16,7 @@ def main():
   multipleGenreMovies()   #Value is printed directly
   numberOfMoviesByDirector()    #Additional CSV
   topRatedMovies(10)    #Numpy Array
-
+    #heloooooooo
 def handleNullValues():
   print("The dataframe has a total of", len(movies.index), "rows")
   print("The null values in each column are", movies.isnull().sum())    #Check for the null values in the dataset
