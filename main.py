@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def main():
   global movies
-
+    #globaal variable defined
   movies = pd.read_csv("sample_data/movies.csv")
   movies = handleNullValues()
 
